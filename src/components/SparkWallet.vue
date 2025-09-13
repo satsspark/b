@@ -199,19 +199,19 @@ const totalRewards = ref(0)
 const levelConfig = [
   {
     level: 1,
-    paymentSats: 210,
+    paymentSats: 21,
     rewardBull: 1000,
     receiveAddress: 'sp1pgssysqqtx7cn0vfqa7ujgvd7qjjgm5npkkpl5x9mtzlv47rfv58kzykm8zzu0'
   },
   {
     level: 2,
-    paymentSats: 420,
+    paymentSats: 42,
     rewardBull: 3000,
     receiveAddress: 'sp1pgssysqqtx7cn0vfqa7ujgvd7qjjgm5npkkpl5x9mtzlv47rfv58kzykm8zzu0'
   },
   {
     level: 3,
-    paymentSats: 840,
+    paymentSats: 84,
     rewardBull: 6000,
     receiveAddress: 'sp1pgssysqqtx7cn0vfqa7ujgvd7qjjgm5npkkpl5x9mtzlv47rfv58kzykm8zzu0'
   }
@@ -1093,4 +1093,5 @@ initializeWallet()
     font-size: 16px;
   }
 }
+
 </style>
